@@ -80,7 +80,7 @@ namespace MobileTimezones
             {
                 if (line.Length == 0 || line[0] == '#')
                     continue;
-                var fields = line.Split('\t');
+                var fields = line.Split('\t', StringSplitOptions.RemoveEmptyEntries);
                 _links[fields[2]] = fields[1];
             }
         }
