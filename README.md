@@ -6,7 +6,7 @@ This plugin also supplies rough time zone coordinates (latitude and longitude) a
 
 ## Usage
 
-Use the `TimeZoneLocation` class from the `MobileTimezones` namespace to access time zone location data.
+Use the `TimeZoneLocation` class from the `MobileTimeZones` namespace to access time zone location data.
 
 * `TimeZoneLocation.Current` returns the current time zone location.
 * `TimeZoneLocation.ForId(string)` returns a time zone location by ID like `"America/New_York"`.
