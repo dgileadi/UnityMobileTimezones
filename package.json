@@ -1,0 +1,25 @@
+{
+    "name": "com.gileadi.unity-mobile-timezones",
+    "version": "0.0.1",
+    "displayName": "Get detailed time zone information on mobile",
+    "description": "Returns detailed time zone information on iOS and Android platforms",
+    "unity": "2019.1",
+    "license": "MIT",
+    "keywords": [
+        "mobile",
+        "iOS",
+        "Android",
+        "timezone",
+        "time zone"
+    ],
+    "author": {
+        "name": "David Gileadi"
+    },
+    "samples": [
+        {
+            "displayName": "Sample Scene",
+            "description": "Display details about your local time zone",
+            "path": "Samples"
+        }
+    ]
+}
